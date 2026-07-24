@@ -7,7 +7,7 @@ authors = [
     { name = "Maria Beltran" }
 ]
 readme = "README.md"
-requires-python = ">=3.13,<3.15"
+requires-python = ">=3.12,<3.15"
 
 dependencies = [
     "fastapi>=0.115,<1.0",
@@ -33,5 +33,6 @@ build-backend = "poetry.core.masonry.api"
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]
+
 [tool.poetry]
 package-mode = false
