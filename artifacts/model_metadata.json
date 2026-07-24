@@ -1,0 +1,30 @@
+{
+  "model_name": "RandomForestClassifier",
+  "model_version": "random_forest_v1",
+  "training_date_utc": "2026-07-24T19:01:28.322437+00:00",
+  "symbols": [
+    "AAPL",
+    "GOOGL",
+    "MSFT"
+  ],
+  "feature_columns": [
+    "return_1d",
+    "return_lag_1",
+    "return_lag_2",
+    "sma_5_ratio",
+    "sma_10_ratio",
+    "volatility_5",
+    "volume_change"
+  ],
+  "target_definition": "1 si el retorno del siguiente día es positivo; 0 en caso contrario",
+  "prediction_horizon": "next_day",
+  "main_metric": "accuracy",
+  "metrics": {
+    "accuracy": 0.5239,
+    "training_records": 3592,
+    "test_records": 899
+  },
+  "dataset_records": 4491,
+  "random_state": 42,
+  "disclaimer": "Modelo desarrollado únicamente con fines educativos. No constituye asesoría financiera."
+}
