@@ -1,37 +1,37 @@
 # Equipo de trabajo
- 
+
 ## Martha Forero
- 
-**Rol:** Administradora del repositorio y responsable de API, pruebas y Docker.
- 
+
+*Rol:* Administradora del repositorio y responsable de API, pruebas y documentación.
+
 ### Responsabilidades
- 
+
 - Crear y administrar el repositorio.
-- Definir la estructura base del proyecto.
-- Coordinar el uso de ramas y Pull Requests.
-- Implementar la API con FastAPI.
-- Crear los contratos de entrada y salida con Pydantic.
-- Desarrollar las pruebas automatizadas.
-- Configurar Docker y Docker Compose.
-- Consolidar y revisar la documentación final.
- 
+- Definir la estructura inicial.
+- Coordinar ramas y Pull Requests.
+- Implementar la aplicación base con FastAPI.
+- Crear los contratos Pydantic.
+- Participar en las pruebas automatizadas.
+- Revisar e integrar los cambios.
+- Consolidar la documentación final.
+
 ## Maria Beltran
- 
-**Rol:** Responsable de datos, variables financieras y modelo predictivo.
- 
+
+*Rol:* Responsable de datos, variables, modelo y Docker.
+
 ### Responsabilidades
- 
-- Descargar datos históricos con yfinance.
-- Crear un dataset local reproducible.
-- Construir variables financieras.
-- Entrenar y evaluar el modelo predictivo.
-- Serializar el modelo con joblib.
-- Crear los metadatos del modelo.
-- Documentar el proceso de preparación de datos y modelado.
- 
+
+- Descargar datos históricos mediante yfinance.
+- Crear el dataset local reproducible.
+- Construir las variables financieras.
+- Entrenar y serializar el modelo predictivo.
+- Generar los metadatos del modelo.
+- Implementar los endpoints de datos e inferencia.
+- Configurar y validar Docker y Docker Compose.
+- Verificar el funcionamiento de la API dentro del contenedor.
+
 ## Estrategia de colaboración
- 
-El equipo trabaja mediante ramas independientes y Pull Requests. No se realizan
-cambios directamente sobre la rama main. Martha Forero administra el repositorio
-e integra los cambios, mientras Maria Beltran desarrolla la parte de datos y
-modelado en una rama propia.
+
+El proyecto se desarrolló mediante ramas independientes, commits descriptivos,
+Pull Requests y revisiones entre las integrantes. No se realizaron cambios de
+desarrollo directamente sobre la rama main.
